@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-labelledby="bannerTitle bannerDesc">
+  <title id="bannerTitle">Abhishek Gupta — neo-brutalist developer portfolio</title>
+  <desc id="bannerDesc">A cream banner with chunky black borders, the name Abhishek Gupta in heavy black type over a pink highlight, a small yellow terminal window, and a black strip listing the stack.</desc>
+
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#000000" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="400" fill="#FFFDF0"/>
+  <rect width="1200" height="400" fill="url(#grid)"/>
+
+  <!-- name -->
+  <text x="64" y="142" font-family="Archivo Black, Arial Black, Impact, sans-serif" font-weight="900" font-size="84" letter-spacing="-2" fill="#000000">ABHISHEK</text>
+
+  <rect x="62" y="178" width="452" height="92" fill="#000000"/>
+  <rect x="52" y="168" width="452" height="92" fill="#FF90E8" stroke="#000000" stroke-width="6"/>
+  <text x="78" y="238" font-family="Archivo Black, Arial Black, Impact, sans-serif" font-weight="900" font-size="84" letter-spacing="-2" fill="#000000">GUPTA</text>
+
+  <text x="66" y="300" font-family="ui-monospace, 'DejaVu Sans Mono', Consolas, monospace" font-size="15" font-weight="700" letter-spacing="2.4" fill="#000000" fill-opacity="0.72">PYTHON · DSA IN C · MACHINE LEARNING</text>
+
+  <!-- terminal window -->
+  <rect x="736" y="112" width="396" height="200" fill="#000000"/>
+  <rect x="728" y="104" width="396" height="200" fill="#FFFFFF" stroke="#000000" stroke-width="6"/>
+  <rect x="728" y="104" width="396" height="38" fill="#FFDE59"/>
+  <rect x="728" y="104" width="396" height="200" fill="none" stroke="#000000" stroke-width="6"/>
+
+  <circle cx="750" cy="123" r="6.5" fill="#FF90E8" stroke="#000000" stroke-width="2.5"/>
+  <circle cx="770" cy="123" r="6.5" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+  <circle cx="790" cy="123" r="6.5" fill="#B8F2A0" stroke="#000000" stroke-width="2.5"/>
+  <text x="810" y="129" font-family="ui-monospace, 'DejaVu Sans Mono', Consolas, monospace" font-size="11" font-weight="700" fill="#000000">abhishek@portfolio: ~ — bash</text>
+
+  <rect x="728" y="142" width="396" height="162" fill="#0A0A0A"/>
+  <g font-family="ui-monospace, 'DejaVu Sans Mono', Consolas, monospace" font-size="14" font-weight="700">
+    <text x="748" y="170" fill="#FFDE59">$ whoami</text>
+    <text x="748" y="192" fill="#FFFFFF">abhishek.gupta</text>
+    <text x="748" y="214" fill="#FFDE59">$ sudo hire --me</text>
+    <text x="748" y="236" fill="#B8F2A0">permission granted ✔</text>
+    <text x="748" y="258" fill="#96CCFF">akgupta7606@gmail.com</text>
+    <text x="748" y="280" fill="#FFDE59">$</text>
+    <rect x="764" y="266" width="9" height="16" fill="#FFDE59"/>
+  </g>
+
+  <!-- AG sticker -->
+  <g transform="rotate(6 1124 62)">
+    <rect x="1096" y="34" width="56" height="56" fill="#000000"/>
+    <rect x="1090" y="28" width="56" height="56" fill="#FFDE59" stroke="#000000" stroke-width="5"/>
+    <text x="1118" y="65" text-anchor="middle" font-family="Archivo Black, Arial Black, Impact, sans-serif" font-size="22" font-weight="900" fill="#000000">AG</text>
+  </g>
+
+  <!-- footer strip -->
+  <rect x="0" y="332" width="1200" height="68" fill="#000000"/>
+  <text x="600" y="373" text-anchor="middle" font-family="ui-monospace, 'DejaVu Sans Mono', Consolas, monospace" font-size="15" font-weight="700" letter-spacing="2.2" fill="#FFFDF0">NEO-BRUTALIST PORTFOLIO · NEXT.JS 16 · REACT 19 · TAILWIND CSS 4 · BUILT WITH OPENCODE</text>
+
+  <!-- outer border -->
+  <rect x="5" y="5" width="1190" height="390" fill="none" stroke="#000000" stroke-width="10"/>
+</svg>
